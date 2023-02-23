@@ -1,0 +1,131 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    width: 1918px;
+    height: 935px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;   
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    height: 935px;
+    background-color: #191718;
+}
+
+.sidebar ul li{
+    display: block;
+    border-bottom: 1px solid #5C5C5C;
+    width: 150px;
+    height: 44px;
+}
+
+.sidebar ul li a{
+    display: block; 
+    padding-top: 14px;
+    color: #AAAAAA;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    padding-left: 16px;
+}
+
+.sidebar ul li:hover{
+    background-color: #5C5C5C;
+}
+
+.sidebar ul li a:hover{
+    color: #ffffff;
+}
+
+.content{
+    background-color: #ffffff;
+    width: 1768px;
+    height: 935px;
+    margin-left: 150px;
+
+}
+
+.content .images{
+    width: 310px;
+    height: 122px;
+    padding-top: 20px;
+    margin-left: 729px;
+    margin-right: 729px;
+}
+
+.group1{
+    width: 1510px;
+    height: 210px;  
+    margin-top: 30px;
+    margin-left: 129px;
+    margin-right: 129px;
+    background: #EFEFEF;
+}
+
+.group1 h3{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 18px;
+    padding-top: 38px;
+}
+
+.group1 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    padding-top: 18px;
+    padding-left: 269px;
+    padding-right: 269px;
+}
+
+.group2 .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 129px;
+    margin-right: 129px;
+    margin-top: 40px;
+}
+
+.grid-item{
+    width: 470px;
+    height: 252px;
+}
+
+.grid-item  h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.grid-item img{
+    width: 128px;
+    height: 128px;
+    float: left;
+    font-weight: 400;
+font-size: 16px;
+}
+
+.footer{
+    border-top: 1px solid #DEDEDE;
+    width: 1768px;
+    height: 79px;
+    margin-left: 150px;
+}
+
+.footer p{
+    padding-left: 129px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 16px;
+}
